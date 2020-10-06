@@ -10,16 +10,16 @@ def readme():
 
 setup(
     name='samsungtvws',
-    version='1.5.3',
+    version='1.5.4',
     description='Samsung Smart TV WS API wrapper',
     long_description=readme(),
     long_description_content_type='text/markdown',
-    author='Xchwarze',
+    author='Xchwarze,jacksga',
     python_requires='>=3.0.0',
-    url='https://github.com/xchwarze/samsung-tv-ws-api',
+    url='https://github.com/jacksga/samsung-tv-ws-api',
     packages=find_packages(exclude=('tests',)),
     install_requires=[
-        'websocket-client==0.56.0',
+        'websocket-client>=0.56.0',
         'requests>=2.21.0'
     ],
     include_package_data=True,
